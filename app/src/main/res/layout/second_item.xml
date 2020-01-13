@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/line"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주소"
+        android:fontFamily="@font/baemin"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메뉴"
+        android:fontFamily="@font/baemin"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="현금/카드"
+        android:fontFamily="@font/baemin"
+        android:textColor="#000000"
+        android:textSize="25dp"/>
+</LinearLayout>
